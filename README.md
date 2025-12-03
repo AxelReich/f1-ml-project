@@ -20,7 +20,7 @@ This project uses Random Forest Classifier models to predict which drivers will 
 - **Package Manager**: `pip` or `uv` (recommended)
 - **Internet Connection**: Required for downloading F1 data via FastF1 API
 
-## 🚀 Installation
+## Installation
 
 ### Option 1: Using UV (Recommended)
 
@@ -37,33 +37,8 @@ uv sync
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-### Option 2: Using pip
 
-```bash
-# Clone the repository (or navigate to project directory)
-cd f1-ml-project
-
-# Create a virtual environment (recommended)
-python -m venv venv
-
-# Activate the virtual environment
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -e .
-```
-
-### Option 3: Manual Installation
-
-If you prefer to install dependencies manually:
-
-```bash
-pip install fastf1>=3.6.1 jupyter>=1.1.1 jupyterlab>=4.4.10 matplotlib>=3.10.7 \
-            numpy>=2.3.4 pandas>=2.3.3 requests>=2.32.5 scikit-learn>=1.7.2 \
-            seaborn>=0.13.2
-```
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 f1-ml-project/
